@@ -23,9 +23,6 @@ header .wrapper {
 h1, h2, h3, h4 {
   margin: 0;
 }
-h4 {
-  text-transform: uppercase;
-}
 h1 {
   font-size: 60px;
 }
@@ -42,7 +39,7 @@ a {
 }
 .menu {
   float: left;
-  padding-left: 300px;
+  padding-left: 500px;
   padding-top: 70px;
 }
 ul {
@@ -101,7 +98,6 @@ button {
 .photo {
   float: left;
   margin-top: 50px;
-
 }
 .block-about {
   padding-top: 180px;
