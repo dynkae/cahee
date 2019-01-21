@@ -26,7 +26,7 @@ h1, h2, h3, h4 {
 h4 {
   text-transform: uppercase;
 }
-h2 {
+h1 {
   font-size: 60px;
 }
 a {
@@ -42,8 +42,8 @@ a {
 }
 .menu {
   float: left;
-  padding-left: 470px;
-  padding-top: 60px;
+  padding-left: 300px;
+  padding-top: 70px;
 }
 ul {
   list-style: none;
@@ -82,4 +82,24 @@ button {
   margin: 0 auto;
   bottom: 5%;
   width: 20px;
+}
+.bg-green {
+  background-color: #00bdbd;
+  padding-left: 165px;
+}
+.bg-green p {
+  color: #ffffff;
+  line-height: 1.5;
+}
+.bg-green h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+  color: #ffffff;
+}
+.pic {
+  float: left;
+}
+.block-about {
+  margin-left: 100px;
 }
