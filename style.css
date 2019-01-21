@@ -85,7 +85,8 @@ button {
 }
 .bg-green {
   background-color: #00bdbd;
-  padding-left: 165px;
+  padding-left: 100px;
+  position: relative;
 }
 .bg-green p {
   color: #ffffff;
@@ -97,9 +98,13 @@ button {
   font-size: 90px;
   color: #ffffff;
 }
-.pic {
+.photo {
   float: left;
+  margin-top: 50px;
+
 }
 .block-about {
-  margin-left: 100px;
+  padding-top: 180px;
+  padding-left: 700px;
+  padding-bottom: 260px;
 }
