@@ -15,7 +15,7 @@ img {
   max-width: 100%;
 }
 header .wrapper {
-  height: 100vh;
+  min-height: 100vh;
   padding-left: 165px;
   overflow: hidden;
   position: relative;
@@ -53,6 +53,7 @@ ul {
 .menu a:hover{
   border-top: 4px solid #ff6033;
   padding-top: 10px;
+  opacity: 0.5s;
 }
 button {
   background-color: #ff6033;
