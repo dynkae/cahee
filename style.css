@@ -8,7 +8,7 @@ body {
 body * {box-sizing: border-box;}
 header {
   background: #ffffff url(./images/background.png) no-repeat 0 0;
-  background-size: 100% auto;
+  background-size: 100% auto; 
 }
 img {
   width: auto;
@@ -19,6 +19,10 @@ header .wrapper {
   padding-left: 165px;
   overflow: hidden;
   position: relative;
+}
+.bg-blue .wrapper, .bg-yellow .wrapper {
+  font-size: 0;
+  padding-left: 165px;
 }
 h1, h2, h3, h4 {
   margin: 0;
@@ -56,7 +60,6 @@ ul {
   opacity: 0.5s;
 }
 button {
-  background-color: #ff6033;
   border: none;
   color: #ffffff;
   height: 60px;
@@ -64,6 +67,11 @@ button {
   font-size: 20px;
   font-weight: 300;
   font-family: 'Raleway', sans-serif;
+  outline: none;
+  box-shadow: 2px 2px 1px #7e7e7ed0;
+}
+button:hover {
+  box-shadow: 2px 2px 1px #474747;
 }
 .block-fresh {
   padding-top: 270px;
@@ -72,6 +80,9 @@ button {
   padding-bottom: 30px;
   padding-top: 30px;
   line-height: 1.5;
+}
+.block-fresh button {
+  background-color: #ff6033;
 }
 .scroll-to {
   position: absolute;
@@ -104,4 +115,57 @@ button {
   padding-top: 180px;
   padding-left: 700px;
   padding-bottom: 260px;
+}
+.bg-blue {
+  background-color: #70c0ff;
+  min-height: 100vh;
+}
+.bg-blue a {
+  display: block;
+  text-align: center;
+  background: #ffffff;
+  height: 70px;
+  width: 300px;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: 1px 1px 1px #6e6e6e;
+}
+.bg-blue a:hover{
+  box-shadow: 2px 2px 1px #474747;
+}
+.links {
+  padding-top: 200px;
+}
+.bg-blue h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+  color: #ffffff;
+}
+.bg-yellow {
+  background-color: #fee92e;
+}
+.bg-yellow h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+  color: #333333;
+  text-align: center;
+  padding-top: 100px;
+}
+.bg-yellow p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+}
+.bg-yellow button {
+  background-color: #5685a3;
+  margin-bottom: 100px;
+}
+.but-middle {
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 50px;
 }
