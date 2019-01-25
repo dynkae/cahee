@@ -17,10 +17,10 @@
         <ul>
           <li><a href="#">HOME</a></li>
           <li><a href="#about-us">ABOUT</a></li>
-          <li><a href="#">SERVICES</a></li>
-          <li><a href="#">GALLERY</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
 
@@ -42,8 +42,8 @@
 <section class="bg-green">
   <div class="wrapper">
     <a name="about-us"></a>
-    <div clas="pic">
-    <img src="images/ber.png" alt="Raspberries" class="photo"> 
+    <div clas="pic-about">
+    <img src="images/ber.png" alt="Raspberries" class="photo-1"> 
     </div>
     <div class="block-about">
       <h2>About Us</h2>
@@ -60,30 +60,70 @@
 
 <section class="bg-blue">
   <div class="wrapper">
+      <a name="services"></a>
+    <div clas="pic">
+          <img src="images/tomato.png" alt="Tomato" class="photo-2"> 
+          <h2>Our Services</h2>
+    </div>
     <div class="links">
       <ul>
-      <li><a href="#"><span>Online Shopping</span> <span></span></a></li>
-      <li><a href="#"><span>Quality Product</span> <span></span></a></li>
-      <li><a href="#"><span>Domestic & International <br /> Delivery</span> <span></span></a></li>
-      <li><a href="#"><span>Well Organized</span> <span></span></a></li>
+      <li><a href="#"><span class="text-span">Online Shopping</span> <span class="icon-span"><img src="./images/shopping.png" alt="Online Shopping"></span></a></li>
+      <li><a href="#"><span class="text-span">Quality Product</span> <span class="icon-span"><img src="./images/quality.png" alt="Quality"></span></a></li>
+      <li><a href="#"><span class="text-span">Domestic & International <br /> Delivery</span> <span class="icon-span"><img src="./images/domestic.png" alt="Domestic"></span></a></li>
+      <li><a href="#"><span class="text-span">Well Organized</span> <span class="icon-span"><img src="./images/well.png" alt="Well Organized"></span></a></li>
       </ul>
     </div>
-    <h2>Our Services</h2>
+    
+   
+
 
   </div>
 </section>
 
 <section class="bg-yellow">
   <div class="wrapper">
+      <a name="gallery"></a>
     <h2>Gallery</h2>
     <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br />
        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br />
         ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <div class="food-table">
+      
+    <div class="flex-container">
+      <div class="first-row">
       <img src="./images/peach.jpg" alt="Peach">
+        <div class="column">
+      <img src="./images/bluber.png" alt="Blueberry">
+      <img src="./images/blackber.png" alt="Blackberry" class="blackberry">
+        </div>
     </div>
+      <div class="second-row">
+       <img src="./images/corn.png" alt="Corn">
+       <img src="./images/permission.png" alt="Permission" class="permission">
+      </div>
+    </div>
+
     <div class="but-middle">
       <button class="view-more">VIEW MORE</button> </div>
+  </div>
+</section>
+
+<section class="bg-white">
+  <div class="wrapper">
+    <h3>Subscribe To Us</h3>
+    <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br />
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    <input type="email" name="login" placeholder="Your email address ...">
+    <button class="subscribe">SUBSCRIBE</button>
+  </div>
+</section>
+
+<section class="bg-violet">
+  <div class="wrapper">
+    <a name="blog"></a>
+    <h2>Blog</h2>
+    <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br />
+       ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br />
+       dolor in reprehenderit in voluptate velit.</p>
   </div>
 </section>
   
