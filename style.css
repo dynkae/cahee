@@ -20,7 +20,7 @@ header .wrapper {
   overflow: hidden;
   position: relative;
 }
-.bg-blue .wrapper, .bg-yellow .wrapper, .bg-white .wrapper, .bg-violet .wrapper {
+.bg-blue .wrapper, .bg-yellow .wrapper, .bg-white .wrapper, .bg-violet .wrapper, .bg-clouds .wrapper {
   font-size: 0;
   padding-left: 165px;
   padding-right: 165px;
@@ -302,4 +302,77 @@ button:hover {
   color: #ffffff;
   background-color: #565c6483;
   margin: 30px 0 0 40px;
+}
+.bg-clouds {
+  background: url(./images/clouds.png) center;
+  overflow: hidden;
+}
+.bg-clouds h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+  color: #333333;
+  text-align: center;
+  padding-top: 100px;
+}
+.bg-clouds p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+}
+.bg-clouds form {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  padding-top: 50px;
+  min-height: 445px; 
+}
+.bg-clouds form input {
+  border: none;
+  background-color: #77d9d780;
+  color: #ffffff;
+  padding-left: 20px;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  outline: none;
+}
+form input.name, form input[type="email"], form input.phone {
+  height: 50px;
+  color: #ffffff;
+}
+form input.name:hover, form input[type="email"]:hover, form input.phone:hover {
+  border-left: 4px solid #355b82;
+  background-color: #00c4c4;
+
+}
+form textarea {
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  background-color: #77d9d780;
+  color: #ffffff;
+  padding-left: 20px;
+  font-size: 15px;
+  height: 200px;
+  padding-top: 20px;
+  outline: none;
+}
+form textarea:hover {
+  border-left: 4px solid #355b82;
+  background-color: #00c4c4;
+}
+.info-block {
+  float: right;
+  margin-top: -400px;
+}
+.info-block h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.info-block span {
+  font-size: 20px;
+  font-weight: 300;
 }
