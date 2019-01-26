@@ -293,8 +293,12 @@ button:hover {
   margin: -100px 0 0 20px;
 }
 .bg-violet span {
-  font-weight: 900;
-  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 21px;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 30px;
   color: #ffffff;
   background-color: #565c6483;
   margin: 30px 0 0 40px;
