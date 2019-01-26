@@ -225,6 +225,7 @@ button:hover {
   width: 570px;
   margin-bottom: 160px;
   margin-right: 30px;
+  outline: none;
 }
 .bg-white input ::placeholder{
   font-size: 15px;
@@ -255,4 +256,38 @@ button:hover {
   padding-bottom: 40px;
   line-height: 1.5;
 }
+.bg-violet .view-more-2{
+  background-color: #f72b3b;
+  margin: 50px 0 121px 485px;
+}
+.bg-violet .shadow {
+  margin: 0 15px -7px 0;
+}
+.bg-violet .margin-photo {
+  margin-left: 20px;
+}
+.bg-violet .photo-block  {
+  position: relative;
+}
+.bg-violet h4, .bg-violet h5, .bg-violet span {
+  position: absolute;
+  color: #ffffff;
+}
+.bg-violet h5 {
+  font-size: 14px;
+  font-weight: 400;
+  margin: -50px 0 0 20px;
+}
+.bg-violet h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: -100px 0 0 20px;
+}
+.bg-violet span {
+  font-weight: 900;
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #565c6483;
+  margin: 30px 0 0 40px;
 
+}
