@@ -25,7 +25,7 @@ header .wrapper {
   padding-left: 165px;
   padding-right: 165px;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   margin: 0;
 }
 h1 {
@@ -35,14 +35,14 @@ a {
   text-decoration: none;
   color: #262626;
 }
-.logo {
+header .logo {
   font-family: 'Pacifico', cursive;
   font-size: 50px;
   color: #262626;
   float: left;
   padding-top: 50px;
 }
-.menu {
+header .menu {
   float: left;
   padding-left: 500px;
   padding-top: 70px;
@@ -50,12 +50,12 @@ a {
 ul {
   list-style: none;
 }
-.menu li {
+header .menu li {
   display: inline-block;
   padding-right: 40px;
   font-weight: bold;
 }
-.menu a:hover{
+header .menu a:hover{
   border-top: 4px solid #ff6033;
   padding-top: 10px;
   opacity: 0.5s;
@@ -177,8 +177,7 @@ button:hover {
   margin-top: 50px;
 }
 .text-span {
-  /* flex-grow: 1;
-  text-align: center; */
+  /* */
 }
 .icon-span {
   display: inline-block;
@@ -289,5 +288,4 @@ button:hover {
   color: #ffffff;
   background-color: #565c6483;
   margin: 30px 0 0 40px;
-
 }
