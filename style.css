@@ -126,7 +126,6 @@ button:hover {
   background: #ffffff;
   height: 100px;
   width: 400px;
-  padding: 20px 0;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 16px;
@@ -188,11 +187,25 @@ button:hover {
   font-weight: bold;
   font-size: 20px;
   line-height: 100px;
-  margin-top: -15px;
 }
-.icon-span {
+.icon-span-a {
   border-left: 1px solid #9d9d9d;
-  line-height: 100px; 
+  padding: 20px 0 0 23px;
+  flex-grow: 1;
+}
+.icon-span-b {
+  border-left: 1px solid #9d9d9d;
+  padding: 20px 0 0 16px;
+  flex-grow: 1;
+}
+.icon-span-c {
+  border-left: 1px solid #9d9d9d;
+  padding: 20px 10px 0 24px;
+  flex-grow: 1;
+}
+.icon-span-d {
+  border-left: 1px solid #9d9d9d;
+  padding: 20px 0 0 16px;
   flex-grow: 1;
 }
 .bg-yellow .first-row {
@@ -338,6 +351,9 @@ button:hover {
   font-family: 'Raleway', sans-serif;
   outline: none;
 }
+.bg-clouds form input::placeholder, .bg-clouds form textarea::placeholder {
+  color: #ffffff;
+}
 form input.name, form input[type="email"], form input.phone {
   height: 50px;
   color: #ffffff;
@@ -345,7 +361,6 @@ form input.name, form input[type="email"], form input.phone {
 form input.name:hover, form input[type="email"]:hover, form input.phone:hover {
   border-left: 4px solid #355b82;
   background-color: #00c4c4;
-
 }
 form textarea {
   font-family: 'Raleway', sans-serif;
@@ -365,6 +380,7 @@ form textarea:hover {
 .info-block {
   float: right;
   margin-top: -400px;
+  margin-bottom: 400px;
 }
 .info-block h4 {
   font-family: 'Raleway', sans-serif;
@@ -375,4 +391,27 @@ form textarea:hover {
 .info-block span {
   font-size: 20px;
   font-weight: 300;
+}
+.last {
+  background-color: #262626;
+}
+footer {
+  margin: 0 auto;
+  min-height: 90px;
+  display: flex;
+  width: 1170px;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+}
+footer a .logo-last {
+  font-family: 'Pacifico', Raleway , sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+}
+footer span {
+  font-weight: 300;
+}
+footer .red {
+  color: #ff2b58;
 }
