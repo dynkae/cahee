@@ -13,16 +13,30 @@
 <header>
   <div class="wrapper">
     <a class="logo" href="/">Cahee</a>
-    <nav class="menu">
+    <nav class="desktop-menu">
         <ul>
           <li><a href="#">HOME</a></li>
           <li><a href="#about-us">ABOUT</a></li>
           <li><a href="#services">SERVICES</a></li>
           <li><a href="#gallery">GALLERY</a></li>
-          <li><a href="#blog">BLOG</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
+      
+      <div class="mobile-menu">
+          <label for="menu-toggle"><img src="./images/menu.svg" alt="Menu"></label>
+          <input id="menu-toggle" type="checkbox" hidden>
+          <nav class="dropdown-menu">
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#about-us">ABOUT</a></li>
+              <li><a href="#services">SERVICES</a></li>
+              <li><a href="#gallery">GALLERY</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+
     <div class="block-fresh">
       <h1>Fresh Life</h1>
       <p>Sed do eiusmod tempor incididunt ut labore et <br />
@@ -65,8 +79,8 @@
     </div>
     <div class="links">
       <ul>
-      <li><a href="#about-us"><span class="text-span">Online Shopping</span> <span class="icon-span-a"><img src="./images/shopping.png" alt="Online Shopping"></span></a></li>
-      <li><a href="#about-us"><span class="text-span">Quality Product</span> <span class="icon-span-b"><img src="./images/quality.png" alt="Quality"></span></a></li>
+      <li><a href="#"><span class="text-span">Online Shopping</span> <span class="icon-span-a"><img src="./images/shopping.png" alt="Online Shopping"></span></a></li>
+      <li><a href="#"><span class="text-span">Quality Product</span> <span class="icon-span-b"><img src="./images/quality.png" alt="Quality"></span></a></li>
       <li><a href="#about-us"><span class="text-span">Domestic & International</span> <span class="icon-span-c"><img src="./images/domestic.png" alt="Domestic"></span></a></li>
       <li><a href="#about-us"><span class="text-span">Well Organized</span> <span class="icon-span-d"><img src="./images/well.png" alt="Well Organized"></span></a></li>
       </ul>
@@ -110,43 +124,6 @@
   </div>
 </section>
 
-<section class="bg-violet">
-  <div class="wrapper">
-    <a name="blog"></a>
-    <h2>Blog</h2>
-    <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br />
-       ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br />
-       dolor in reprehenderit in voluptate velit.</p>
-    <div class="photo-block">
-
-    <a href="/">
-      <span>20<br />NOV</span>
-      <img src="./images/blog-1.png" alt="Photo" class="shadow">
-      <h4>Green Smoothies Too Much of a Good<br />
-         Thing?</h4>
-      <h5>By Auskeez - 2 hours ago</h5>
-    </a> 
-
-    <a href="/">
-      <span>14<br />NOV</span>
-      <img src="./images/blog-2.png" alt="Photo">
-      <h4>Growing Food and a "Thirst" for<br />
-         Innovation</h4>
-      <h5>By Auskeez - 3 hours ago</h5>
-    </a>  
-
-    <a href="/">
-      <span>10<br />NOV</span>
-      <h4>Pesticides & Food: What You Need<br />
-        to Know</h4>
-      <h5>By Auskeez - 6 hours ago</h5>
-      <img src="./images/blog-3.png" alt="Photo" class="margin-photo">
-    </a>
-    
-    </div>
-    <button class="view-more-2">VIEW MORE</button>
-  </div>
-</section>
 
 <section class="bg-clouds">
 <div class="wrapper">
@@ -179,11 +156,13 @@
 </section>
 
 <section class="last">
+<div class="wrapper">
 <footer>
   <span>© 2015 Company. All right reserved.</span>
   <a href="#"><span class="logo-last">Cahee</span></a>
   <span>Made with <span class="red">love</span> by Auskteez</span>
 </footer>
+</div>
 </section>
   
 </body>
